@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>oprnCV</title>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <style>
+        h1{
+            font-size : 70px;
+            color :green;
+            text-align : center;
+           }
+
+        h3{
+            font-size : 50px;
+            color : gray;
+            text-align : center;
+        }
+        img{
+            box-shadow: 0px 0px 10px black;
+            border-radius : 10px ;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Creating 2 image tags -->
+    <div class="container pt-5">
+        <div class="row">
+            <div class="col">
+                <h1>Home</h1>
+                <h3>openCV</h3>
+            </div>
+
+            <div class="col">
+                <img src = "{% url 'camera' %}">
+            </div>
+
+        </div>
+    </div>
+
+
+
+</body>
+</html>
