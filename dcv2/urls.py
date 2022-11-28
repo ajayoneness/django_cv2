@@ -4,6 +4,6 @@ from . import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',views.opencv,name="camera" ),
-    path('video/',views.video, name ="video")
+    path('aj/',views.opencv,name="camera" ),
+    path('',views.video, name ="video")
 ]
