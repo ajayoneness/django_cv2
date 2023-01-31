@@ -1,6 +1,6 @@
 from django.shortcuts import render,redirect,HttpResponse
 import threading
-import cv2
+import cv2,os,urllib.request
 from django.views.decorators import gzip
 from django.http import StreamingHttpResponse
 
